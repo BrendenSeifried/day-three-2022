@@ -2,6 +2,20 @@
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
+step 1: MAKE A README WITH STEPS FIRST - FAILED
+step 2: catch up to lesson - Complete 
+step 3: add weight - complete
+step 4: add speed 
+step 5: add HP
+step 6: Change header 
+step 7: Change style css
+step 8: ???
+step 9: profit
+
+
+
+
+
 If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
 
 ## Making a plan
