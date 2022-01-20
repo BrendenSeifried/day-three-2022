@@ -19,6 +19,7 @@ async function getPokemon() {
         const pokemonImg = clone.querySelector('#image');
         const defense = clone.querySelector('#defense');
         const weight = clone.querySelector('#weight');
+        const speed = clone.querySelector('#speed');
        // audio.src = '/assets/pokemon.wav';
        // audio.play();
 
@@ -27,6 +28,8 @@ async function getPokemon() {
         defense.textContent = 'Defense: ' + pokemon.defense;
         list.append(clone);
         weight.textContent = 'Weight: ' + pokemon.weight;
+        list.append(clone);
+        speed.textContent = 'speed: ' + pokemon.speed;
         list.append(clone);
     }
 }
