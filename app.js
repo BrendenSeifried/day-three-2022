@@ -18,12 +18,15 @@ async function getPokemon() {
         const pokemonName = clone.querySelector('#pokemon');
         const pokemonImg = clone.querySelector('#image');
         const defense = clone.querySelector('#defense');
+        const weight = clone.querySelector('#weight');
        // audio.src = '/assets/pokemon.wav';
        // audio.play();
 
         pokemonName.textContent = 'Name: ' + pokemon.pokemon;
         pokemonImg.src = pokemon.url_image;
         defense.textContent = 'Defense: ' + pokemon.defense;
+        list.append(clone);
+        weight.textContent = 'Weight: ' + pokemon.weight;
         list.append(clone);
     }
 }
