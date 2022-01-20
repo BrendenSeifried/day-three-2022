@@ -5,8 +5,8 @@
 step 1: MAKE A README WITH STEPS FIRST - FAILED
 step 2: catch up to lesson - Complete 
 step 3: add weight - complete
-step 4: add speed 
-step 5: add HP
+step 4: add speed - complete
+step 5: add HP - 
 step 6: Change header 
 step 7: Change style css
 step 8: ???

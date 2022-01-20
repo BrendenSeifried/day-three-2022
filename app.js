@@ -20,6 +20,7 @@ async function getPokemon() {
         const defense = clone.querySelector('#defense');
         const weight = clone.querySelector('#weight');
         const speed = clone.querySelector('#speed');
+        const hp = clone.querySelector('#hp');
        // audio.src = '/assets/pokemon.wav';
        // audio.play();
 
@@ -30,6 +31,8 @@ async function getPokemon() {
         weight.textContent = 'Weight: ' + pokemon.weight;
         list.append(clone);
         speed.textContent = 'speed: ' + pokemon.speed;
+        list.append(clone);
+        hp.textContent = 'HP: ' + pokemon.hp;
         list.append(clone);
     }
 }
