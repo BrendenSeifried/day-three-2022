@@ -4,9 +4,10 @@
     --chrome-background: #e3b574;
     --chrome-background-opaque: #e3b574d1;
     --secondary-background: #C9B39B;
-    --text-color: #32363F;
+    --text-color: #ff0000;
     --accent-light: #ED8F11;
     --accent-dark: #C27A18;
+    
     
     --gutter: 30px;
 }
@@ -14,7 +15,8 @@
 body {
     /* style */
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--primary-background);
+    font-weight:200;
+    background-color: #6DAEDB;
     color: var(--text-color);
 
     /* layout */
@@ -28,18 +30,20 @@ body {
 header {
     display: flex;
     justify-content: flex-start;
-    background-color: var(--chrome-background);
+    background-color: #1B4353;
     box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     padding: 0 var(--gutter);
+    font-weight:bolder;
 }
 
 main {
     overflow-y: auto;
+    font-weight:bolder
 }
 
 
 footer {
-    background-color: var(--chrome-background-opaque);
+    background-color: #1B4353;
     padding: 10px var(--gutter);
     align-self: stretch;
 }
