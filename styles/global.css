@@ -4,7 +4,7 @@
     --chrome-background: #e3b574;
     --chrome-background-opaque: #e3b574d1;
     --secondary-background: #C9B39B;
-    --text-color: #ff0000;
+    --text-color: #3d0505ad;
     --accent-light: #ED8F11;
     --accent-dark: #C27A18;
     
@@ -15,7 +15,7 @@
 body {
     /* style */
     font-family: 'Titillium Web', sans-serif;
-    font-weight:200;
+    font-weight:600;
     background-color: #6DAEDB;
     color: var(--text-color);
 
