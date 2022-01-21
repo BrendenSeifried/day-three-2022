@@ -13,6 +13,7 @@
 }
 
 body {
+    
     /* style */
     font-family: 'Titillium Web', sans-serif;
     font-weight:600;
@@ -40,6 +41,11 @@ header {
 main {
     overflow-y: auto;
     font-weight:bolder
+    display: column;
+    /*grid-template-columns: 80px 1fr auto;*/
+    /*display: grid;
+    grid-template-clumns: 1fr 1fr;*/
+   
 }
 
 
@@ -49,4 +55,9 @@ footer {
     background-color: #1B4353;
     padding: 10px var(--gutter);
     align-self: stretch;
+}
+
+#list {
+    display: row;
+    grid-template-clumns: 1fr 1fr;
 }

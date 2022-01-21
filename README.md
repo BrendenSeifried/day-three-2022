@@ -8,8 +8,8 @@ step 3: add weight - complete
 step 4: add speed - complete
 step 5: add HP - complete
 step 6: Change header - complete
-step 7: Change style css - 
-step 8: ???
+step 7: Change style css - complete 
+step 8: ??? - Trying to change css style from grid to row (cant get it to work)
 step 9: profit
 
 

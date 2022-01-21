@@ -38,6 +38,8 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    display: box;
+    grid-template-clumns: 1fr 1fr;
 }
 
 section {
@@ -53,6 +55,8 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    display: box;
+    grid-template-clumns: 1fr 1fr;
     
 }
 
@@ -92,4 +96,9 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+#list {
+    display: grid;
+    grid-template-clumns: 1fr 1fr;
 }
