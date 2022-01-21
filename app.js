@@ -6,18 +6,36 @@ console.log('Its ALIVE!');
 const template = document.querySelector('#template');
 const list = document.querySelector('#list');
 const audio = document.querySelector('#audio');
+const response = document.querySelector('#response');
+const input = document.querySelector('#Answer');
 
-console.log('test', template, list, audio);
+console.log('test', template, list, audio, response, input);
 // set event listeners 
     // get user input
     // use user input to update state 
     // update DOM to reflect the new state
-if ('Answer' === 'Yes') {
-    response.textContent = 'You have good taste.';
-} 
-else {
-    response.textContent = 'Please answer correctly.';
-}
+
+input.addEventListener('submit', () => {
+
+    const inputValue = input.value;
+    console.log(inputValue);
+    
+    if ('Answer' === 'Yes') {
+
+        response.textContent = 'You have good taste.';
+
+    } 
+    else {
+
+        response.textContent = 'Please answer correctly.';
+    
+    }
+
+});
+
+
+
+
     
 async function getPokemon() {
     const pokemons = await getPokedex();
