@@ -8,6 +8,7 @@ const list = document.querySelector('#list');
 const audio = document.querySelector('#audio');
 const response = document.querySelector('#response');
 const input = document.querySelector('#Answer');
+const button = document.querySelector('#button');
 
 console.log('test', template, list, audio, response, input);
 // set event listeners 
@@ -31,6 +32,17 @@ input.addEventListener('submit', () => {
     
     }
 
+});
+
+button.addEventListener('click', () => {
+
+ 
+    let answer = input.value;
+    if (answer === 'Yes' || answer === 'yes') {
+        response.textContent = 'You are correct!';
+    } else {
+        response.textContent = 'You are wrong!';
+    }
 });
 
 
