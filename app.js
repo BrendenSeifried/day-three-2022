@@ -6,12 +6,18 @@ console.log('Its ALIVE!');
 const template = document.querySelector('#template');
 const list = document.querySelector('#list');
 const audio = document.querySelector('#audio');
+
 console.log('test', template, list, audio);
 // set event listeners 
     // get user input
     // use user input to update state 
     // update DOM to reflect the new state
-
+if ('Answer' === 'Yes') {
+    response.textContent = 'You have good taste.';
+} 
+else {
+    response.textContent = 'Please answer correctly.';
+}
     
 async function getPokemon() {
     const pokemons = await getPokedex();
@@ -25,7 +31,7 @@ async function getPokemon() {
         const hp = clone.querySelector('#hp');
        // audio.src = '/assets/pokemon.wav';
        // audio.play();
-        const question = document.getElementById('Question');
+        
         
        
 
