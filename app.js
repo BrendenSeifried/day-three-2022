@@ -11,6 +11,8 @@ console.log('test', template, list, audio);
     // get user input
     // use user input to update state 
     // update DOM to reflect the new state
+
+    
 async function getPokemon() {
     const pokemons = await getPokedex();
     for (let pokemon of pokemons) {
@@ -23,6 +25,9 @@ async function getPokemon() {
         const hp = clone.querySelector('#hp');
        // audio.src = '/assets/pokemon.wav';
        // audio.play();
+        const question = document.getElementById('Question');
+        
+       
 
         pokemonName.textContent = 'Name: ' + pokemon.pokemon;
         pokemonImg.src = pokemon.url_image;
@@ -34,6 +39,8 @@ async function getPokemon() {
         list.append(clone);
         hp.textContent = 'HP: ' + pokemon.hp;
         list.append(clone);
+
+       
     }
 }
 window.addEventListener('load', async() => {
