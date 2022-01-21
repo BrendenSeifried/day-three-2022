@@ -98,7 +98,3 @@ footer {
     box-shadow: var(--shadow);
 }
 
-#list {
-    display: grid;
-    grid-template-clumns: 1fr 1fr;
-}
