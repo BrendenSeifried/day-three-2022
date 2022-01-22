@@ -39,9 +39,9 @@ button.addEventListener('click', () => {
  
     let answer = input.value;
     if (answer === 'Yes' || answer === 'yes') {
-        response.textContent = 'You are correct!';
+        response.textContent = 'You have good taste.';
     } else {
-        response.textContent = 'You are wrong!';
+        response.textContent = 'Please answer correctly.';
     }
 });
 
